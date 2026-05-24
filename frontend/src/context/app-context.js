@@ -6,7 +6,7 @@ import axios from "axios";
 
 // connecting with backend
 axios.defaults.withCredentials = true ;
-axios.defaults.baseURL = process.env.REACT_APP_BACKEND_URL || "http://localhost:5000";
+axios.defaults.baseURL = process.env.REACT_APP_BACKEND_URL || "https://e-com-evne.onrender.com";
 
 // This context will be used to manage the global state of the application
 export const AppContext = createContext();
