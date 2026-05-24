@@ -24,7 +24,7 @@ await connectDB();
 // stripe configuration
 app.post("/stripe", express.raw({ type: "application/json" }), stripeWebhook);
 
-const allowedOrigins = ["http://localhost:3000"];
+const allowedOrigins = ["https://e-com-2-vmz6.onrender.com"];
 
 // middlewares
 app.use(express.json());
